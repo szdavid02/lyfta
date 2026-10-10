@@ -1,6 +1,8 @@
 import { CONFIG } from './config.js';
 import { ACTIONS, buildPlan, exerciseHistory, e1rm, fmt, summarize, detectStagnation } from './engine.js';
 import { lineChart, weekBars } from './chart.js';
+import { buildAdvice } from './advice.js';
+import { recipesFor, dayNumber } from './recipes.js';
 
 const app = document.getElementById('app');
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -10,7 +12,7 @@ const exName = (slug, fallback) => CONFIG.names?.[slug] || fallback;
 let sessions = [];
 let images = {};
 let plan = null;
-const state = { exercise: null, metric: 'e1rm', historyLimit: 15 };
+const state = { exercise: null, metric: 'e1rm', historyLimit: 15, recipeOffset: 0 };
 
 function daysAgoText(n) {
   if (n <= 0) return 'ma';
@@ -220,6 +222,75 @@ function renderHistory() {
   app.querySelector('#more')?.addEventListener('click', () => { state.historyLimit += 20; renderHistory(); });
 }
 
+/* ---------- Tanácsok ---------- */
+
+const LEVEL_LABEL = { fontos: 'Fontos', figyelj: 'Figyelj rá', tipp: 'Tipp', 'jó': 'Jól megy' };
+
+function renderAdvice() {
+  if (!sessions.length) return renderEmpty();
+  const { items, swaps } = buildAdvice(sessions, plan, CONFIG);
+  const cards = items.map((a) => `<li class="card advice" data-level="${esc(a.level)}">
+      <p class="a-level">${esc(LEVEL_LABEL[a.level] || a.level)}</p>
+      <h2>${esc(a.title)}</h2>
+      <p>${esc(a.text)}</p>
+      ${a.list ? `<ul class="a-list">${a.list.map((x) => `<li><b>${esc(x.name)}</b><span>${esc(x.detail)}</span></li>`).join('')}</ul>` : ''}
+    </li>`).join('');
+  const swapHtml = swaps.map((d) => `<section class="panel">
+      <h2>${esc(d.day)}</h2>
+      <ul class="swaps">${d.items.map((e) => `<li><details>
+        <summary>${esc(e.name)}</summary>
+        <ul>${e.alts.map(([n, why]) => `<li><b>${esc(n)}</b><span>${esc(why)}</span></li>`).join('')}</ul>
+      </details></li>`).join('')}</ul>
+    </section>`).join('');
+  app.innerHTML = `
+    <header class="hero compact">
+      <h1>Tanácsok</h1>
+      <p class="sub">Az edzésnaplódból, szabályok alapján. Edzésre vonatkozó javaslatok, nem orvosi tanácsok; fájdalom vagy sérülés esetén kérdezz szakembert.</p>
+    </header>
+    <ul class="advice-list">${cards}</ul>
+    <div class="list-head"><h2>Csereötletek</h2><span>a mostani programodhoz</span></div>
+    <p class="sub swap-note">Akkor érdemes cserélni, ha egy gyakorlat 3–4 alkalom óta nem fejlődik, vagy kényelmetlen. Új gyakorlatnál a régi súly nem vihető át: kezdj könnyebben, 12–15 ismétlésre, és onnan emelj.</p>
+    ${swapHtml}`;
+}
+
+/* ---------- Receptek ---------- */
+
+const MEALS = [['lunch', 'Ebéd'], ['dinner', 'Vacsora'], ['snack', 'Nasi']];
+
+function recipeCard(label, r) {
+  return `<article class="card recipe">
+    <p class="r-meal">${label}</p>
+    <h2>${esc(r.name)}</h2>
+    <p class="r-meta"><span><b>${r.p} g</b> fehérje</span><span><b>${r.f} g</b> rost</span><span><b>${r.kcal}</b> kcal</span><span>${r.t} perc</span></p>
+    <ul class="r-ing">${r.ing.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+    <details class="r-steps"><summary>Elkészítés</summary><ol>${r.steps.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></details>
+  </article>`;
+}
+
+function renderRecipes() {
+  const n = dayNumber(new Date(), CONFIG.timezone) + state.recipeOffset;
+  const day = recipesFor(n);
+  const date = new Date((n * 86400000) + 12 * 3600000);
+  const dateText = date.toLocaleDateString('hu-HU', { month: 'long', day: 'numeric', weekday: 'long', timeZone: 'UTC' });
+  const totals = MEALS.reduce((a, [k]) => ({ p: a.p + day[k].p, f: a.f + day[k].f, kcal: a.kcal + day[k].kcal }), { p: 0, f: 0, kcal: 0 });
+  const rel = state.recipeOffset === 0 ? 'Mai ajánlat' : state.recipeOffset === 1 ? 'Holnapi ajánlat' : state.recipeOffset === -1 ? 'Tegnapi ajánlat' : 'Ajánlat';
+  app.innerHTML = `
+    <header class="hero compact">
+      <h1>Receptek</h1>
+      <p class="sub">Minden nap új ebéd, vacsora és nasi: sok fehérje, sok rost, gyorsan elkészíthető. 1 adagra számolva.</p>
+    </header>
+    <div class="day-nav">
+      <button type="button" id="prev" aria-label="Előző nap">‹</button>
+      <div><p class="dn-rel">${rel}</p><p class="dn-date">${esc(dateText)}</p></div>
+      <button type="button" id="next" aria-label="Következő nap">›</button>
+    </div>
+    ${MEALS.map(([k, label]) => recipeCard(label, day[k])).join('')}
+    <p class="foot">A három együtt kb. ${totals.p} g fehérje, ${totals.f} g rost és ${totals.kcal} kcal. Ehhez jön még a reggeli. Az értékek becslések, a pontos szám a márkától és az adagtól függ.${state.recipeOffset ? ' <button type="button" class="linkish" id="today">Vissza a mai naphoz</button>' : ''}</p>`;
+  app.querySelector('#prev').addEventListener('click', () => { state.recipeOffset--; renderRecipes(); });
+  app.querySelector('#next').addEventListener('click', () => { state.recipeOffset++; renderRecipes(); });
+  app.querySelector('#today')?.addEventListener('click', () => { state.recipeOffset = 0; renderRecipes(); });
+}
+
 /* ---------- közös ---------- */
 
 let generatedAt = null;
@@ -237,6 +308,8 @@ function route() {
   document.querySelectorAll('.tabs a').forEach((a) => a.toggleAttribute('aria-current', a.dataset.tab === tab));
   if (tab === 'haladas') renderProgress();
   else if (tab === 'elozmenyek') renderHistory();
+  else if (tab === 'tanacsok') renderAdvice();
+  else if (tab === 'receptek') renderRecipes();
   else renderToday();
   window.scrollTo(0, 0);
 }

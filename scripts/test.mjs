@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { transformAll, collectImages, localDateTime, parseDuration, slugify } from './lyfta.mjs';
 import { buildPlan, nextDay, planExercise, inferStep, detectStagnation } from '../js/engine.js';
 import { readFile } from 'node:fs/promises';
+import { RECIPES, recipesFor } from '../js/recipes.js';
+import { classify, buildAdvice } from '../js/advice.js';
 
 const cfg = { timezone: 'Europe/Budapest', rotation: ['Hát/Váll', 'Mell/Bicepsz'], repRanges: [[8, 12], [10, 15]], exercises: {}, names: {}, stagnationWindow: 4 };
 let passed = 0;
@@ -97,6 +99,26 @@ test('megakadás: nincs új csúcs és súlyemelés sem', () => {
   assert.ok(detectStagnation([h(50, 10), h(50, 9), h(50, 10), h(50, 8), h(50, 9)], 4));
   assert.equal(detectStagnation([h(50, 10), h(50, 9), h(55, 7), h(55, 8), h(55, 8)], 4), null);
   assert.equal(detectStagnation([h(50, 10), h(50, 11)], 4), null);
+});
+
+test('receptek: hiánytalanok, és egymást követő napokon más jön', () => {
+  for (const list of Object.values(RECIPES)) for (const r of list) {
+    assert.ok(r.name && r.p > 0 && r.f > 0 && r.kcal > 0 && r.t > 0 && r.ing.length && r.steps.length, r.name);
+  }
+  const a = recipesFor(20000), b = recipesFor(20001);
+  assert.notEqual(a.lunch.name, b.lunch.name);
+  assert.notEqual(a.dinner.name, b.dinner.name);
+  assert.ok(recipesFor(-5).snack);
+});
+
+test('tanácsok: izomcsoport-besorolás és hiányzó láb', () => {
+  assert.equal(classify('lever-seated-leg-press'), 'leg');
+  assert.equal(classify('vertical-leg-raise'), 'core');
+  assert.equal(classify('lever-seated-reverse-fly'), 'pull');
+  assert.equal(classify('lever-pec-deck-fly'), 'push');
+  assert.equal(classify('biceps-curl'), 'pull');
+  const { items } = buildAdvice(sessions, null, cfg, new Date('2026-10-10T10:00:00Z'));
+  assert.equal(items[0].title, 'Hiányzik a lábedzés');
 });
 
 test('üres előzmény → nincs terv', () => assert.equal(buildPlan([], cfg), null));

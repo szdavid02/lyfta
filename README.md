@@ -2,7 +2,9 @@
 
 Saját, magyar nyelvű edzés-dashboard a Lyfta adataidból. Megmutatja a következő edzést
 (Hát/Váll ↔ Mell/Bicepsz), sorozatonként a célsúlyt és a célismétlést, a haladásodat
-grafikonon, és az összes korábbi edzést.
+grafikonon, az összes korábbi edzést, szabályalapú tanácsokat és csereötleteket a
+naplódból (Tanácsok fül), valamint minden nap egy fehérjedús, rostos ebédet, vacsorát
+és nasit (Receptek fül, a receptek a `js/recipes.js` fájlban bővíthetők).
 
 Hogyan működik: egy GitHub Action minden este lehúzza a Lyftából az edzéseidet a
 `data/history.json` fájlba, és kiteszi az oldalt GitHub Pagesre. A tervet a böngésző
