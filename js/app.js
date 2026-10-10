@@ -8,6 +8,7 @@ const huDate = (d, opts = { month: 'short', day: 'numeric' }) => new Date(d + 'T
 const exName = (slug, fallback) => CONFIG.names?.[slug] || fallback;
 
 let sessions = [];
+let images = {};
 let plan = null;
 const state = { exercise: null, metric: 'e1rm', historyLimit: 15 };
 
@@ -29,65 +30,88 @@ function cardioText(c) {
 
 /* ---------- Ma ---------- */
 
+const SYMBOL = { increase: '↗', reps: '+', hold: '=', correction: '↘' };
+const DUMBBELL = '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="17" width="6" height="14" rx="2"/><rect x="36" y="17" width="6" height="14" rx="2"/><rect x="12" y="21" width="24" height="6" rx="2"/></svg>';
+
+function thumb(slug) {
+  const url = images[slug];
+  return url
+    ? `<img class="thumb" src="${esc(url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    : `<span class="thumb placeholder">${DUMBBELL}</span>`;
+}
+
+function exerciseCard(ex) {
+  const a = ACTIONS[ex.action];
+  const rows = ex.sets.map((s) => {
+    const dir = s.w > s.last.w ? 'up' : s.w < s.last.w ? 'down' : '';
+    return `<li class="${dir}"><b>${fmt(s.w)}</b><small>kg</small><span class="x">×</span><b>${s.target}</b><small>ism.</small></li>`;
+  }).join('');
+
+  const notable = ex.sets.filter((s) => s.action !== 'reps');
+  const multi = ex.sets.length > 1;
+  let why = notable.map((s) => (multi ? `${s.idx + 1}. sorozat: ` : '') + s.reason).join(' ');
+  if (!notable.length) {
+    why = multi && !ex.sets[0].reason.startsWith('Súlyemelés')
+      ? 'Minden sorozat a tartományban van: mindegyikben +1 ismétlés.'
+      : ex.sets[0].reason;
+  } else if (notable.length < ex.sets.length) why += ' A többi sorozatban +1 ismétlés.';
+
+  const hist = exerciseHistory(sessions, ex.slug).slice(-4).reverse();
+  const histRows = hist.map((h) => `<tr><td>${esc(huDate(h.date))}</td><td>${h.sets.map((s) => `${fmt(s.w)} × ${s.r}`).join(', ')}</td></tr>`).join('');
+  const stag = ex.stagnation
+    ? `<p class="flag">${ex.stagnation.sessions} alkalom óta nincs új csúcs (${esc(huDate(ex.stagnation.since))} óta). Javaslat a Haladás fülön.</p>` : '';
+
+  return `<li class="card ex" data-action="${ex.action}">
+    <div class="ex-main">
+      ${thumb(ex.slug)}
+      <div class="ex-body">
+        <p class="ex-meta">${ex.sets.length} sorozat</p>
+        <h2>${esc(ex.name)}</h2>
+        <ol class="sets" aria-label="Célok sorozatonként">${rows}</ol>
+        <p class="tag"><span aria-hidden="true">${SYMBOL[ex.action]}</span> ${esc(a.label)}</p>
+      </div>
+    </div>
+    <details class="ex-more">
+      <summary>Előzmények és indoklás</summary>
+      <p class="why">${esc(why)}</p>
+      ${stag}
+      <table class="recent"><thead><tr><th>Dátum</th><th>Sorozatok (kg × ism.)</th></tr></thead><tbody>${histRows}</tbody></table>
+    </details>
+  </li>`;
+}
+
 function renderToday() {
   if (!plan) return renderEmpty();
   const sum = summarize(sessions);
   const lastSame = plan.template;
   const lastAny = sessions[sessions.length - 1];
   const sameDay = lastSame.title === plan.day;
+  const totalSets = plan.exercises.reduce((a, e) => a + e.sets.length, 0);
 
   const intro = sameDay
-    ? `Legutóbb ${esc(huDate(lastSame.date))} (${daysAgoText(sum.ago(lastSame.date))}). A terv az akkori sorozataidra épül.`
+    ? `Legutóbb ${esc(huDate(lastSame.date))} (${daysAgoText(sum.ago(lastSame.date))}). Utolsó edzés: ${esc(lastAny.title)}, ${esc(huDate(lastAny.date))}`
     : `Ehhez a naphoz még nincs korábbi edzés, ezért a legutóbbi edzésből indulok.`;
 
   const warm = plan.warmup?.length
-    ? `<p class="warmup"><span>Bemelegítés</span> ${plan.warmup.map((c) => esc(cardioText(c))).join('; ')}</p>` : '';
-
-  const items = plan.exercises.map((ex) => {
-    const a = ACTIONS[ex.action];
-    const rows = ex.sets.map((s) => {
-      const dir = s.w > s.last.w ? 'up' : s.w < s.last.w ? 'down' : '';
-      return `<li>
-        <span class="n" aria-hidden="true">${s.idx + 1}</span>
-        <span class="target ${dir}"><b>${fmt(s.w)}</b><small>kg</small> × <b>${s.target}</b></span>
-        <span class="was">múltkor ${fmt(s.last.w)} × ${s.last.r}</span>
-      </li>`;
-    }).join('');
-    const notable = ex.sets.filter((s) => s.action !== 'reps');
-    const multi = ex.sets.length > 1;
-    let why = notable.map((s) => (multi ? `${s.idx + 1}. sorozat: ` : '') + s.reason).join(' ');
-    if (!notable.length) {
-      why = multi && !ex.sets[0].reason.startsWith('Súlyemelés')
-        ? 'Minden sorozat a tartományban van: mindegyikben +1 ismétlés.'
-        : ex.sets[0].reason;
-    }
-    else if (notable.length < ex.sets.length) why += ' A többi sorozatban +1 ismétlés.';
-    const stag = ex.stagnation
-      ? `<p class="flag">${ex.stagnation.sessions} alkalom óta nincs új csúcs (${esc(huDate(ex.stagnation.since))} óta). Lásd a Haladás fület.</p>` : '';
-    return `<li class="ex" data-action="${ex.action}">
-      <div class="ex-head">
-        <h2>${esc(ex.name)}</h2>
-        <span class="tag">${esc(a.label)}</span>
-      </div>
-      <ol class="sets" aria-label="Sorozatok">${rows}</ol>
-      <p class="why">${esc(why)}</p>
-      ${stag}
-    </li>`;
-  }).join('');
-
-  const prevNote = lastAny && lastAny.title !== plan.day
-    ? `<p class="sub">Utolsó edzés: ${esc(lastAny.title)}, ${esc(huDate(lastAny.date))}</p>` : '';
+    ? `<div class="card warmup"><span class="w-label">Bemelegítés</span> ${plan.warmup.map((c) => esc(cardioText(c))).join('; ')}</div>` : '';
 
   app.innerHTML = `
     <header class="hero">
-      <p class="date">${esc(new Date().toLocaleDateString('hu-HU', { month: 'long', day: 'numeric', weekday: 'long' }))}</p>
+      <p class="date">Következő edzés, ${esc(new Date().toLocaleDateString('hu-HU', { month: 'long', day: 'numeric', weekday: 'long' }))}</p>
       <h1>${esc(plan.day)}</h1>
       <p class="sub">${intro}</p>
-      ${prevNote}
     </header>
     ${warm}
-    <ol class="ex-list">${items}</ol>
+    <div class="list-head"><h2>Gyakorlatok</h2><span>${plan.exercises.length} gyakorlat, ${totalSets} sorozat</span></div>
+    <ol class="ex-list">${plan.exercises.map(exerciseCard).join('')}</ol>
     <p class="foot">Súlylépcső és ismétléstartomány a <code>js/config.js</code> fájlban állítható. Adatok frissítve: ${esc(dataStamp())}.</p>`;
+
+  app.querySelectorAll('img.thumb').forEach((img) => img.addEventListener('error', () => {
+    const ph = document.createElement('span');
+    ph.className = 'thumb placeholder';
+    ph.innerHTML = DUMBBELL;
+    img.replaceWith(ph);
+  }, { once: true }));
 }
 
 /* ---------- Haladás ---------- */
@@ -224,6 +248,7 @@ async function init() {
     const doc = await res.json();
     if (doc.schemaVersion !== 1 || !Array.isArray(doc.sessions)) throw new Error('ismeretlen adatformátum');
     sessions = doc.sessions;
+    images = doc.images || {};
     generatedAt = doc.generatedAt;
     plan = buildPlan(sessions, CONFIG);
   } catch (err) {

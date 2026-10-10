@@ -1,6 +1,6 @@
 // Gyors tesztek szintetikus adatokkal. Futtatás: node scripts/test.mjs
 import assert from 'node:assert/strict';
-import { transformAll, localDateTime, parseDuration, slugify } from './lyfta.mjs';
+import { transformAll, collectImages, localDateTime, parseDuration, slugify } from './lyfta.mjs';
 import { buildPlan, nextDay, planExercise, inferStep, detectStagnation } from '../js/engine.js';
 import { readFile } from 'node:fs/promises';
 
@@ -50,6 +50,16 @@ test('azonos napi edzések külön azonosítót kapnak', () => {
   assert.deepEqual(out.map((s) => s.id), ['2026-09-01-hat-vall', '2026-09-01-hat-vall-2']);
 });
 
+test('képek: csak Lyfta-címek, gyakorlatonként egy', () => {
+  const w = { exercises: [
+    { excercise_name: 'Pulldown', exercise_image: 'https://apilyfta.com/static/a.png' },
+    { excercise_name: 'Pulldown', exercise_image: 'https://apilyfta.com/static/b.png' },
+    { excercise_name: 'Rossz', exercise_image: 'http://evil.example/x.png' },
+    { excercise_name: 'Nincs' },
+  ] };
+  assert.deepEqual(collectImages([w]), { pulldown: 'https://apilyfta.com/static/a.png' });
+});
+
 const sessions = transformAll(raw, 'Europe/Budapest');
 
 test('rotáció: Mell/Bicepsz után Hát/Váll', () => {
@@ -96,6 +106,8 @@ const doc = JSON.parse(await readFile(new URL('../data/history.json', import.met
 assert.equal(doc.schemaVersion, 1);
 assert.ok(Array.isArray(doc.sessions));
 const txt = JSON.stringify(doc);
-for (const bad of ['username', 'body_weight', 'exercise_id', 'workout_perform_date', 'apilyfta.com']) assert.ok(!txt.includes(bad), `history.json: ${bad}`);
+const txtNoImages = JSON.stringify({ ...doc, images: undefined });
+for (const bad of ['username', 'body_weight', 'exercise_id', 'workout_perform_date', 'https://']) assert.ok(!txtNoImages.includes(bad), `history.json: ${bad}`);
+for (const url of Object.values(doc.images || {})) assert.match(url, /^https:\/\/(apilyfta\.com|(www\.)?lyfta\.app)\//);
 
 console.log(`\n${passed + 1} teszt rendben.`);

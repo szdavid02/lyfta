@@ -97,3 +97,23 @@ export function transformAll(workouts, timeZone) {
   }
   return sessions.map(({ id, ...rest }) => ({ id, ...rest }));
 }
+
+// Gyakorlatképek: csak a Lyfta saját képszerverének címét tároljuk, magát a képet nem.
+// Az oldal futás közben onnan tölti be őket.
+const IMAGE_HOSTS = new Set(['apilyfta.com', 'lyfta.app', 'www.lyfta.app']);
+
+export function collectImages(workouts) {
+  const images = {};
+  for (const w of workouts) {
+    for (const e of w.exercises || []) {
+      const name = String(e.excercise_name ?? e.exercise_name ?? '').trim();
+      const url = String(e.exercise_image || '');
+      if (!name || !url) continue;
+      try {
+        const u = new URL(url);
+        if (u.protocol === 'https:' && IMAGE_HOSTS.has(u.hostname)) images[slugify(name)] ??= u.href;
+      } catch { /* hibás URL: kihagyjuk */ }
+    }
+  }
+  return Object.fromEntries(Object.entries(images).sort(([a], [b]) => a.localeCompare(b)));
+}

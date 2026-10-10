@@ -4,7 +4,7 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { CONFIG } from '../js/config.js';
-import { transformAll } from './lyfta.mjs';
+import { transformAll, collectImages } from './lyfta.mjs';
 
 const KEY = process.env.LYFTA_API_KEY;
 const BASE = process.env.LYFTA_BASE_URL || 'https://my.lyfta.app';
@@ -63,6 +63,7 @@ async function main() {
   }
   const raw = await fetchAll();
   const sessions = transformAll(raw, CONFIG.timezone);
+  const images = collectImages(raw);
   const old = await readExisting();
   const oldCount = old.sessions?.length || 0;
 
@@ -71,11 +72,12 @@ async function main() {
     throw new Error(`Gyanúsan kevés edzés (${sessions.length}, eddig ${oldCount}). Nem írom felül. FORCE=1 felülbírálja.`);
   }
 
-  if (JSON.stringify(old.sessions) === JSON.stringify(sessions)) {
+  if (JSON.stringify(old.sessions) === JSON.stringify(sessions)
+    && JSON.stringify(old.images || {}) === JSON.stringify(images)) {
     console.log(`Nincs változás (${sessions.length} edzés).`);
     return;
   }
-  const doc = { schemaVersion: 1, generatedAt: new Date().toISOString(), sessions };
+  const doc = { schemaVersion: 1, generatedAt: new Date().toISOString(), images, sessions };
   await writeFile(OUT, JSON.stringify(doc, null, 1) + '\n');
   console.log(`Frissítve: ${sessions.length} edzés (eddig ${oldCount}).`);
 }

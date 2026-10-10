@@ -2,7 +2,7 @@
 
 export const ACTIONS = {
   increase: { label: 'Súlyemelés', short: 'Súly ↑' },
-  reps: { label: 'Ismétlés +1', short: 'Ism. +1' },
+  reps: { label: 'Több ismétlés', short: 'Ism. +1' },
   hold: { label: 'Tartás', short: 'Tartás' },
   correction: { label: 'Visszalépés', short: 'Súly ↓' },
 };
