@@ -1,1 +1,10597 @@
-{"schemaVersion":1,"generatedAt":null,"sessions":[]}
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-10-10T08:36:11.794Z",
+ "sessions": [
+  {
+   "id": "2026-03-04-hat-vall",
+   "date": "2026-03-04",
+   "time": "19:05",
+   "title": "Hát/Váll",
+   "volume": 6890,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 7.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-front-pulldown",
+     "name": "Lever Front Pulldown",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-10-mell-bicepsz",
+   "date": "2026-03-10",
+   "time": "18:35",
+   "title": "Mell/Bicepsz",
+   "volume": 6580,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 960,
+     "distance": 2
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "bench-press",
+     "name": "Bench Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 15
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 30,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 6
+      },
+      {
+       "w": 28,
+       "r": 8
+      },
+      {
+       "w": 28,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 5,
+       "r": 10
+      },
+      {
+       "w": 8,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 8,
+       "r": 10
+      },
+      {
+       "w": 8,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 30,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-13-hat-vall",
+   "date": "2026-03-13",
+   "time": "18:10",
+   "title": "Hát/Váll",
+   "volume": 7050,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 960,
+     "distance": 2
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 20,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 36,
+       "r": 10
+      },
+      {
+       "w": 36,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-pulldown",
+     "name": "Lever Lateral Pulldown",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 45,
+       "r": 10
+      },
+      {
+       "w": 45,
+       "r": 10
+      },
+      {
+       "w": 50,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 8,
+       "r": 10
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-15-has-lab",
+   "date": "2026-03-15",
+   "time": "15:17",
+   "title": "Has/Láb",
+   "volume": 6630,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 900,
+     "distance": 2
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-squat-calf-raise-on-leg-press-machine",
+     "name": "Lever Seated Squat Calf Raise on Leg Press Machine",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-standing-calf-raise",
+     "name": "Lever Standing Calf Raise",
+     "sets": [
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10
+      },
+      {
+       "w": 45,
+       "r": 10
+      },
+      {
+       "w": 45,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "vertical-leg-raise",
+     "name": "Vertical Leg Raise",
+     "sets": [
+      {
+       "w": 0,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 0,
+       "r": 10
+      },
+      {
+       "w": 0,
+       "r": 10
+      },
+      {
+       "w": 0,
+       "r": 10
+      },
+      {
+       "w": 0,
+       "r": 10
+      },
+      {
+       "w": 0,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 28,
+       "r": 10
+      },
+      {
+       "w": 32,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-single-arm-triceps-pushdown-rope-attachment",
+     "name": "Cable Single Arm Triceps Pushdown (Rope Attachment)",
+     "sets": [
+      {
+       "w": 10,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 8
+      },
+      {
+       "w": 10,
+       "r": 8
+      },
+      {
+       "w": 10,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-leg-extension",
+     "name": "Lever Leg Extension",
+     "sets": [
+      {
+       "w": 25,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10
+      },
+      {
+       "w": 25,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-standing-reverse-grip-curl",
+     "name": "Cable Standing Reverse Grip Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 5
+      },
+      {
+       "w": 20,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 8
+      },
+      {
+       "w": 20,
+       "r": 8
+      },
+      {
+       "w": 20,
+       "r": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-16-mell-bicepsz",
+   "date": "2026-03-16",
+   "time": "19:57",
+   "title": "Mell/Bicepsz",
+   "volume": 7726,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 300,
+     "distance": 0.5
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 8,
+       "r": 10
+      },
+      {
+       "w": 9,
+       "r": 10
+      },
+      {
+       "w": 9,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 24,
+       "r": 10
+      },
+      {
+       "w": 24,
+       "r": 10
+      },
+      {
+       "w": 28,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 28,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 32,
+       "r": 10,
+       "pr": [
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 10,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 36.3,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 36.3,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 25,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 8
+      },
+      {
+       "w": 25,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "bench-press",
+     "name": "Bench Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 15,
+       "pr": [
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 37.5,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 37.5,
+       "r": 4,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 8
+      },
+      {
+       "w": 10,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-18-hat-vall",
+   "date": "2026-03-18",
+   "time": "18:51",
+   "title": "Hát/Váll",
+   "volume": 5322,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1.5
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-pulldown",
+     "name": "Lever Lateral Pulldown",
+     "sets": [
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-23-mell-bicepsz",
+   "date": "2026-03-23",
+   "time": "18:32",
+   "title": "Mell/Bicepsz",
+   "volume": 5634.2,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 36.3,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36.3,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 36.3,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 6
+      },
+      {
+       "w": 10,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-27-hat-vall",
+   "date": "2026-03-27",
+   "time": "18:00",
+   "title": "Hát/Váll",
+   "volume": 8264,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 12.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 44,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 18,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 18,
+       "r": 10
+      },
+      {
+       "w": 18,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-03-30-mell-bicepsz",
+   "date": "2026-03-30",
+   "time": "18:32",
+   "title": "Mell/Bicepsz",
+   "volume": 7885.8,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 36.3,
+       "r": 10
+      },
+      {
+       "w": 36.3,
+       "r": 8
+      },
+      {
+       "w": 36.3,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-01-hat-vall",
+   "date": "2026-04-01",
+   "time": "14:44",
+   "title": "Hát/Váll",
+   "volume": 6794,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 15,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 15,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 15,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 18,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 18,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 18,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-07-mell-bicepsz",
+   "date": "2026-04-07",
+   "time": "18:41",
+   "title": "Mell/Bicepsz",
+   "volume": 6306.8,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 36.3,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 36.3,
+       "r": 12
+      },
+      {
+       "w": 36.3,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 8,
+       "r": 12
+      },
+      {
+       "w": 8,
+       "r": 12
+      },
+      {
+       "w": 8,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-09-hat-vall",
+   "date": "2026-04-09",
+   "time": "19:22",
+   "title": "Hát/Váll",
+   "volume": 6936,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1.1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 15,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 15,
+       "r": 12
+      },
+      {
+       "w": 15,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 18,
+       "r": 12
+      },
+      {
+       "w": 18,
+       "r": 12
+      },
+      {
+       "w": 18,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-20-mell-bicepsz",
+   "date": "2026-04-20",
+   "time": "18:14",
+   "title": "Mell/Bicepsz",
+   "volume": 5986.2,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 36.3,
+       "r": 12
+      },
+      {
+       "w": 36.3,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 35,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11,
+       "pr": [
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 36,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 10
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-22-hat-vall",
+   "date": "2026-04-22",
+   "time": "18:06",
+   "title": "Hát/Váll",
+   "volume": 6882,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 12,
+       "r": 12
+      },
+      {
+       "w": 15,
+       "r": 12
+      },
+      {
+       "w": 15,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 22,
+       "r": 10,
+       "pr": [
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 22,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 22,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 44,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 12
+      },
+      {
+       "w": 44,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 10
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-22-hat-vall-2",
+   "date": "2026-04-22",
+   "time": "19:19",
+   "title": "Hát/Váll",
+   "volume": 6794,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 15,
+       "r": 12
+      },
+      {
+       "w": 15,
+       "r": 12
+      },
+      {
+       "w": 15,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 18,
+       "r": 12
+      },
+      {
+       "w": 18,
+       "r": 12
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 44,
+       "r": 12
+      },
+      {
+       "w": 44,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-24-has-lab",
+   "date": "2026-04-24",
+   "time": "18:25",
+   "title": "Has/Láb",
+   "volume": 7316,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 510,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-squat-calf-raise-on-leg-press-machine",
+     "name": "Lever Seated Squat Calf Raise on Leg Press Machine",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-standing-calf-raise",
+     "name": "Lever Standing Calf Raise",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-leg-extension",
+     "name": "Lever Leg Extension",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 36,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 12
+      },
+      {
+       "w": 36,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cable-single-arm-triceps-pushdown-rope-attachment",
+     "name": "Cable Single Arm Triceps Pushdown (Rope Attachment)",
+     "sets": [
+      {
+       "w": 10,
+       "r": 8
+      },
+      {
+       "w": 10,
+       "r": 8
+      },
+      {
+       "w": 10,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "cable-standing-reverse-grip-curl",
+     "name": "Cable Standing Reverse Grip Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 15,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-27-mell-bicepsz",
+   "date": "2026-04-27",
+   "time": "18:15",
+   "title": "Mell/Bicepsz",
+   "volume": 6435,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 14,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 40.8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40.8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40.8,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 45,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 12,
+       "pr": [
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12
+      },
+      {
+       "w": 32,
+       "r": 11
+      },
+      {
+       "w": 32,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-04-29-hat-vall",
+   "date": "2026-04-29",
+   "time": "18:23",
+   "title": "Hát/Váll",
+   "volume": 7146,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 14,
+       "r": 12
+      },
+      {
+       "w": 14,
+       "r": 12
+      },
+      {
+       "w": 14,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 22,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 22,
+       "r": 8
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 12
+      },
+      {
+       "w": 55,
+       "r": 12
+      },
+      {
+       "w": 55,
+       "r": 16,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 14,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-05-03-has-lab",
+   "date": "2026-05-03",
+   "time": "17:23",
+   "title": "Has/Láb",
+   "volume": 7768,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "lever-seated-squat-calf-raise-on-leg-press-machine",
+     "name": "Lever Seated Squat Calf Raise on Leg Press Machine",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-leg-extension",
+     "name": "Lever Leg Extension",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-standing-calf-raise",
+     "name": "Lever Standing Calf Raise",
+     "sets": [
+      {
+       "w": 65,
+       "r": 12
+      },
+      {
+       "w": 70,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 70,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 36,
+       "r": 12
+      },
+      {
+       "w": 36,
+       "r": 12
+      },
+      {
+       "w": 36,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cable-standing-reverse-grip-curl",
+     "name": "Cable Standing Reverse Grip Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 20,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-single-arm-triceps-pushdown-rope-attachment",
+     "name": "Cable Single Arm Triceps Pushdown (Rope Attachment)",
+     "sets": [
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-05-04-mell-bicepsz",
+   "date": "2026-05-04",
+   "time": "18:20",
+   "title": "Mell/Bicepsz",
+   "volume": 6526.6,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 8,
+       "r": 12
+      },
+      {
+       "w": 8,
+       "r": 12
+      },
+      {
+       "w": 8,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 40.8,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45.4,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45.4,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 9
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12
+      },
+      {
+       "w": 32,
+       "r": 8
+      },
+      {
+       "w": 28,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-05-18-mell-bicepsz",
+   "date": "2026-05-18",
+   "time": "18:27",
+   "title": "Mell/Bicepsz",
+   "volume": 5733.6,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 40.8,
+       "r": 12
+      },
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 10
+      },
+      {
+       "w": 32,
+       "r": 11
+      },
+      {
+       "w": 32,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 7.5,
+       "r": 12
+      },
+      {
+       "w": 9,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 32,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-05-26-mell-bicepsz",
+   "date": "2026-05-26",
+   "time": "18:26",
+   "title": "Mell/Bicepsz",
+   "volume": 6254,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 17,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 40.8,
+       "r": 17,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40.8,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 9,
+       "r": 10
+      },
+      {
+       "w": 9,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 7
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 36,
+       "r": 12
+      },
+      {
+       "w": 36,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-05-28-hat-vall",
+   "date": "2026-05-28",
+   "time": "18:28",
+   "title": "Hát/Váll",
+   "volume": 5087,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 720,
+     "distance": 1.6
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 17.5,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 15,
+       "r": 10
+      },
+      {
+       "w": 15,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 48,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 21,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 31,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 18,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 14,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 20,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 48,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-01-mell-bicepsz",
+   "date": "2026-06-01",
+   "time": "18:31",
+   "title": "Mell/Bicepsz",
+   "volume": 4884.6,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 16,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 55,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40.8,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 45,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-07-hat-vall",
+   "date": "2026-06-07",
+   "time": "11:25",
+   "title": "Hát/Váll",
+   "volume": 4731.5,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    },
+    {
+     "name": "Rowing",
+     "duration": 358,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 17.5,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 12.5,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 56,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 46,
+       "r": 14,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 52,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 65,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 27,
+       "r": 5,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-08-mell-bicepsz",
+   "date": "2026-06-08",
+   "time": "18:21",
+   "title": "Mell/Bicepsz",
+   "volume": 5260,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 50,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 55,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40.8,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 45,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13,
+       "pr": [
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12
+      },
+      {
+       "w": 28,
+       "r": 16,
+       "pr": [
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cross-body-hammer-curl",
+     "name": "Cross Body Hammer Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-10-hat-vall",
+   "date": "2026-06-10",
+   "time": "20:00",
+   "title": "Hát/Váll",
+   "volume": 6169,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 60,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 52,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 45,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 70,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 20,
+       "r": 16,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-lateral-raise",
+     "name": "Cable One Arm Lateral Raise",
+     "sets": [
+      {
+       "w": 5,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 5,
+       "r": 13
+      }
+     ]
+    },
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cross-body-hammer-curl",
+     "name": "Cross Body Hammer Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 6
+      },
+      {
+       "w": 25,
+       "r": 15,
+       "pr": [
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-15-mell-bicepsz",
+   "date": "2026-06-15",
+   "time": "18:33",
+   "title": "Mell/Bicepsz",
+   "volume": 4736,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 7
+      },
+      {
+       "w": 30,
+       "r": 13
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 36,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 7
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-18-hat-vall",
+   "date": "2026-06-18",
+   "time": "18:49",
+   "title": "Hát/Váll",
+   "volume": 4128,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 30,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 60,
+       "r": 5,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 6,
+       "pr": [
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-lateral-raise",
+     "name": "Cable One Arm Lateral Raise",
+     "sets": [
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 30,
+       "r": 8
+      },
+      {
+       "w": 64,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 52,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-24-mell-bicepsz",
+   "date": "2026-06-24",
+   "time": "18:18",
+   "title": "Mell/Bicepsz",
+   "volume": 5355,
+   "cardio": [],
+   "exercises": [
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 65,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cross-body-hammer-curl",
+     "name": "Cross Body Hammer Curl",
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-07-08-mell-bicepsz",
+   "date": "2026-07-08",
+   "time": "18:07",
+   "title": "Mell/Bicepsz",
+   "volume": 4800,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 65,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-07-10-hat-vall",
+   "date": "2026-07-10",
+   "time": "18:18",
+   "title": "Hát/Váll",
+   "volume": 4430,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 16,
+       "r": 10,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 60,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 40,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-lateral-raise",
+     "name": "Cable One Arm Lateral Raise",
+     "sets": [
+      {
+       "w": 10,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-narrow-grip-seated-row",
+     "name": "Lever Narrow Grip Seated Row",
+     "sets": [
+      {
+       "w": 45,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-07-13-mell-bicepsz",
+   "date": "2026-07-13",
+   "time": "18:14",
+   "title": "Mell/Bicepsz",
+   "volume": 5247,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 9
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 70,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 10,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-standing-reverse-grip-curl",
+     "name": "Cable Standing Reverse Grip Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 12,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cable-single-arm-triceps-pushdown-rope-attachment",
+     "name": "Cable Single Arm Triceps Pushdown (Rope Attachment)",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-08-24-mell-bicepsz",
+   "date": "2026-08-24",
+   "time": "18:32",
+   "title": "Mell/Bicepsz",
+   "volume": 5830,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 13
+      },
+      {
+       "w": 30,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 9,
+       "r": 12
+      },
+      {
+       "w": 9,
+       "r": 9
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8
+      },
+      {
+       "w": 50,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cross-body-hammer-curl",
+     "name": "Cross Body Hammer Curl",
+     "sets": [
+      {
+       "w": 8,
+       "r": 10
+      },
+      {
+       "w": 8,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-08-27-hat-vall",
+   "date": "2026-08-27",
+   "time": "18:15",
+   "title": "Hát/Váll",
+   "volume": 4744,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 44,
+       "r": 8
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "seated-shoulder-press",
+     "name": "Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 16,
+       "r": 8
+      },
+      {
+       "w": 16,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 25,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 32,
+       "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-08-31-mell-bicepsz",
+   "date": "2026-08-31",
+   "time": "18:29",
+   "title": "Mell/Bicepsz",
+   "volume": 8300,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 15,
+       "r": 10
+      },
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 25,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-leg-press",
+     "name": "Lever Seated Leg Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-standing-calf-raise",
+     "name": "Lever Standing Calf Raise",
+     "sets": [
+      {
+       "w": 85,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 85,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-02-hat-vall",
+   "date": "2026-09-02",
+   "time": "18:25",
+   "title": "Hát/Váll",
+   "volume": 5088,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 27,
+       "r": 6
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 70,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8
+      },
+      {
+       "w": 20,
+       "r": 15,
+       "pr": [
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 55,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-07-mell-bicepsz",
+   "date": "2026-09-07",
+   "time": "17:57",
+   "title": "Mell/Bicepsz",
+   "volume": 6545,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 540,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 50,
+       "r": 11,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 60,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8
+      },
+      {
+       "w": 25,
+       "r": 15,
+       "pr": [
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-09-hat-vall",
+   "date": "2026-09-09",
+   "time": "17:42",
+   "title": "Hát/Váll",
+   "volume": 6336,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 56,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 44,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 27,
+       "r": 6
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 30,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 70,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cable-single-arm-triceps-pushdown-rope-attachment",
+     "name": "Cable Single Arm Triceps Pushdown (Rope Attachment)",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 36,
+       "r": 8
+      },
+      {
+       "w": 32,
+       "r": 6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-14-mell-bicepsz",
+   "date": "2026-09-14",
+   "time": "17:46",
+   "title": "Mell/Bicepsz",
+   "volume": 7488,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 65,
+       "r": 10,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12
+      },
+      {
+       "w": 32,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 50,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-21-mell-bicepsz",
+   "date": "2026-09-21",
+   "time": "18:14",
+   "title": "Mell/Bicepsz",
+   "volume": 7020,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "dumbbell-incline-curl",
+     "name": "Dumbbell Incline Curl",
+     "sets": [
+      {
+       "w": 10,
+       "r": 12
+      },
+      {
+       "w": 10,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "hyperextension",
+     "name": "Hyperextension",
+     "sets": [
+      {
+       "w": 16,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 16,
+       "r": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-25-hat-vall",
+   "date": "2026-09-25",
+   "time": "17:46",
+   "title": "Hát/Váll",
+   "volume": 3832,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 18,
+       "r": 12
+      },
+      {
+       "w": 18,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-shoulder-press",
+     "name": "Lever Shoulder Press",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 56,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 48,
+       "r": 9
+      },
+      {
+       "w": 48,
+       "r": 6
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-27-mell-bicepsz",
+   "date": "2026-09-27",
+   "time": "13:18",
+   "title": "Mell/Bicepsz",
+   "volume": 9153,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 16,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 50,
+       "r": 12
+      },
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 55,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "hammer-curl",
+     "name": "Hammer Curl",
+     "sets": [
+      {
+       "w": 12,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 12,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 55,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-29-mell-bicepsz",
+   "date": "2026-09-29",
+   "time": "18:11",
+   "title": "Mell/Bicepsz",
+   "volume": 5399,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 13,
+       "pr": [
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 16,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 16,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 55,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 40,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 9
+      },
+      {
+       "w": 60,
+       "r": 9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-01-hat-vall",
+   "date": "2026-10-01",
+   "time": "18:26",
+   "title": "Hát/Váll",
+   "volume": 7235,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 40,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 22.5,
+       "r": 10
+      },
+      {
+       "w": 22.5,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 55,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 13
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 70,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 8
+      },
+      {
+       "w": 30,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-05-mell-bicepsz",
+   "date": "2026-10-05",
+   "time": "18:29",
+   "title": "Mell/Bicepsz",
+   "volume": 7341,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 16,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 10
+      },
+      {
+       "w": 50,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 7
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12
+      },
+      {
+       "w": 60,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 32,
+       "r": 12
+      },
+      {
+       "w": 28,
+       "r": 14
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 15,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-09-hat-vall",
+   "date": "2026-10-09",
+   "time": "18:13",
+   "title": "Hát/Váll",
+   "volume": 7478.4,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 56,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 52,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 27.2,
+       "r": 7
+      },
+      {
+       "w": 22.5,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 56,
+       "r": 6,
+       "pr": [
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 48,
+       "r": 10
+      },
+      {
+       "w": 48,
+       "r": 8
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 35,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 40,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 65,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 13,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
