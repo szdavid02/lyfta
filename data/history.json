@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-10T08:42:39.375Z",
+ "generatedAt": "2026-10-13T23:28:42.017Z",
  "images": {
   "bench-press": "https://apilyfta.com/static/GymvisualPNG/00251101-Barbell-Bench-Press_Chest-FIX_small.png",
   "biceps-curl": "https://apilyfta.com/static/GymvisualPNG/16071101-Cable-Biceps-Curl-(SZ-bar)_Upper-arms_small.png",
@@ -13,7 +13,7 @@
   "dumbbell-incline-curl": "https://apilyfta.com/static/GymvisualPNG/03171101-Dumbbell-Incline-Curl-II_Upper-Arms_small.png",
   "hammer-curl": "https://apilyfta.com/static/GymvisualPNG/03131101-Dumbbell-Hammer-Curl_Forearm_small.png",
   "hyperextension": "https://apilyfta.com/static/GymvisualPNG/04891101-Hyperextension_Waist_small.png",
-  "lever-chest-press": "https://apilyfta.com/static/GymvisualPNG/14551101-Lever-Chest-Press-(VERSION-2)_Chest_small.png",
+  "lever-chest-press": "https://apilyfta.com/static/GymvisualPNG/05761101-Lever-Chest-Press-(plate-loaded)_Chest_small.png",
   "lever-decline-chest-press": "https://apilyfta.com/static/GymvisualPNG/13001101-Lever-Decline-Chest-Press_Chest_small.png",
   "lever-front-pulldown": "https://apilyfta.com/static/GymvisualPNG/05791101-Lever-Front-Pulldown_Back_small.png",
   "lever-high-row": "https://apilyfta.com/static/GymvisualPNG/05811101-Lever-High-Row-(plate-loaded)_Back_small.png",
@@ -10627,6 +10627,248 @@
          "level": 3
         }
        ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-13-mell-bicepsz",
+   "date": "2026-10-13",
+   "time": "18:33",
+   "title": "Mell/Bicepsz",
+   "volume": 8700,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 15,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-chest-press",
+     "name": "Lever Chest Press",
+     "sets": [
+      {
+       "w": 55,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 50,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 8
+      },
+      {
+       "w": 55,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 35,
+       "r": 12
+      },
+      {
+       "w": 30,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 65,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 8
       }
      ]
     }
