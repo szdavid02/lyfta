@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-18T21:59:59.406Z",
+ "generatedAt": "2026-10-19T23:11:09.065Z",
  "images": {
   "bench-press": "https://apilyfta.com/static/GymvisualPNG/00251101-Barbell-Bench-Press_Chest-FIX_small.png",
   "biceps-curl": "https://apilyfta.com/static/GymvisualPNG/16071101-Cable-Biceps-Curl-(SZ-bar)_Upper-arms_small.png",
@@ -11173,6 +11173,228 @@
       {
        "w": 40,
        "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-mell-bicepsz",
+   "date": "2026-10-19",
+   "time": "18:46",
+   "title": "Mell/Bicepsz",
+   "volume": 7603,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 420,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "close-grip-preacher-curl",
+     "name": "Close Grip Preacher Curl",
+     "sets": [
+      {
+       "w": 45,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 16,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-fly",
+     "name": "Lever Seated Fly",
+     "sets": [
+      {
+       "w": 70,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-biceps-curl",
+     "name": "Cable One Arm Biceps Curl",
+     "sets": [
+      {
+       "w": 20,
+       "r": 10
+      },
+      {
+       "w": 16,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-incline-chest-press",
+     "name": "Lever Incline Chest Press",
+     "sets": [
+      {
+       "w": 70,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 9
+      },
+      {
+       "w": 40,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-pec-deck-fly",
+     "name": "Lever Pec Deck Fly",
+     "sets": [
+      {
+       "w": 55,
+       "r": 7,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 44,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 36,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-decline-chest-press",
+     "name": "Lever Decline Chest Press",
+     "sets": [
+      {
+       "w": 70,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
       }
      ]
     }
