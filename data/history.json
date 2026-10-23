@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-19T23:11:09.065Z",
+ "generatedAt": "2026-10-23T22:43:09.817Z",
  "images": {
   "bench-press": "https://apilyfta.com/static/GymvisualPNG/00251101-Barbell-Bench-Press_Chest-FIX_small.png",
   "biceps-curl": "https://apilyfta.com/static/GymvisualPNG/16071101-Cable-Biceps-Curl-(SZ-bar)_Upper-arms_small.png",
@@ -11392,6 +11392,314 @@
         },
         {
          "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-23-hat-vall",
+   "date": "2026-10-23",
+   "time": "14:18",
+   "title": "Hát/Váll",
+   "volume": 9540,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 30,
+       "r": 13,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 50,
+       "r": 14,
+       "pr": [
+        {
+         "type": 3,
+         "level": 2
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 56,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "cable-one-arm-lateral-raise",
+     "name": "Cable One Arm Lateral Raise",
+     "sets": [
+      {
+       "w": 15,
+       "r": 6,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 10,
+       "r": 15,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-high-row",
+     "name": "Lever High Row",
+     "sets": [
+      {
+       "w": 75,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 65,
+       "r": 14,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "biceps-curl",
+     "name": "Biceps Curl",
+     "sets": [
+      {
+       "w": 48,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 70,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 20,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        },
+        {
+         "type": 4,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 47,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 43,
+       "r": 8,
+       "pr": [
+        {
+         "type": 2,
          "level": 2
         }
        ]
