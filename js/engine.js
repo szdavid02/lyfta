@@ -99,9 +99,9 @@ export function nextDay(sessions, rotation) {
   return rotation[(i + 1) % rotation.length];
 }
 
-export function buildPlan(sessions, cfg) {
+export function buildPlan(sessions, cfg, dayOverride = null) {
   if (!sessions.length) return null;
-  const day = nextDay(sessions, cfg.rotation);
+  const day = dayOverride || nextDay(sessions, cfg.rotation);
   const template = [...sessions].reverse().find((s) => s.title === day) || sessions[sessions.length - 1];
   return {
     day,

@@ -117,6 +117,8 @@ select {
   border: 1px solid transparent; border-radius: 999px; padding: .35rem .8rem; cursor: pointer;
 }
 .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.day-pick { margin-top: .9rem; }
+.day-pick small { font-weight: 400; opacity: .8; }
 .chart { width: 100%; height: auto; display: block; margin: .5rem 0; }
 .chart .grid { stroke: var(--line); stroke-width: 1; }
 .chart .axis { fill: var(--muted); font: 500 13px var(--font); }

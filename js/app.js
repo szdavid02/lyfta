@@ -1,5 +1,5 @@
 import { CONFIG } from './config.js';
-import { ACTIONS, buildPlan, exerciseHistory, e1rm, fmt, summarize, detectStagnation } from './engine.js';
+import { ACTIONS, buildPlan, nextDay, exerciseHistory, e1rm, fmt, summarize, detectStagnation } from './engine.js';
 import { lineChart, weekBars } from './chart.js';
 import { buildAdvice } from './advice.js';
 import { recipesFor, dayNumber } from './recipes.js';
@@ -12,7 +12,7 @@ const exName = (slug, fallback) => CONFIG.names?.[slug] || fallback;
 let sessions = [];
 let images = {};
 let plan = null;
-const state = { exercise: null, metric: 'e1rm', historyLimit: 15, recipeOffset: 0 };
+const state = { exercise: null, metric: 'e1rm', historyLimit: 15, recipeOffset: 0, day: null };
 
 function daysAgoText(n) {
   if (n <= 0) return 'ma';
@@ -83,7 +83,14 @@ function exerciseCard(ex) {
 }
 
 function renderToday() {
-  if (!plan) return renderEmpty();
+  if (!sessions.length) return renderEmpty();
+  const suggested = nextDay(sessions, CONFIG.rotation);
+  const days = [...new Set([...CONFIG.rotation, suggested])]
+    .filter((d) => sessions.some((x) => x.title === d));
+  const plan = buildPlan(sessions, CONFIG, state.day && days.includes(state.day) ? state.day : null);
+  const picker = days.length > 1
+    ? `<div class="seg day-pick" role="group" aria-label="Edzésnap">${days.map((d) => `<button type="button" data-day="${esc(d)}" aria-pressed="${d === plan.day}">${esc(d)}${d === suggested ? ' <small>(következő)</small>' : ''}</button>`).join('')}</div>`
+    : '';
   const sum = summarize(sessions);
   const lastSame = plan.template;
   const lastAny = sessions[sessions.length - 1];
@@ -99,15 +106,20 @@ function renderToday() {
 
   app.innerHTML = `
     <header class="hero">
-      <p class="date">Következő edzés, ${esc(new Date().toLocaleDateString('hu-HU', { month: 'long', day: 'numeric', weekday: 'long' }))}</p>
+      <p class="date">${plan.day === suggested ? 'Következő edzés' : 'Választott edzés'}, ${esc(new Date().toLocaleDateString('hu-HU', { month: 'long', day: 'numeric', weekday: 'long' }))}</p>
       <h1>${esc(plan.day)}</h1>
       <p class="sub">${intro}</p>
+      ${picker}
     </header>
     ${warm}
     <div class="list-head"><h2>Gyakorlatok</h2><span>${plan.exercises.length} gyakorlat, ${totalSets} sorozat</span></div>
     <ol class="ex-list">${plan.exercises.map(exerciseCard).join('')}</ol>
     <p class="foot">Súlylépcső és ismétléstartomány a <code>js/config.js</code> fájlban állítható. Adatok frissítve: ${esc(dataStamp())}.</p>`;
 
+  app.querySelectorAll('[data-day]').forEach((b) => b.addEventListener('click', () => {
+    state.day = b.dataset.day === suggested ? null : b.dataset.day;
+    renderToday();
+  }));
   app.querySelectorAll('img.thumb').forEach((img) => img.addEventListener('error', () => {
     const ph = document.createElement('span');
     ph.className = 'thumb placeholder';
