@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-15T23:37:36.913Z",
+ "generatedAt": "2026-11-17T02:40:35.720Z",
  "images": {
   "bench-press": "https://apilyfta.com/static/GymvisualPNG/00251101-Barbell-Bench-Press_Chest-FIX_small.png",
   "biceps-curl": "https://apilyfta.com/static/GymvisualPNG/16071101-Cable-Biceps-Curl-(SZ-bar)_Upper-arms_small.png",
@@ -13183,6 +13183,196 @@
       {
        "w": 40,
        "r": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-16-hat-vall",
+   "date": "2026-11-16",
+   "time": "18:39",
+   "title": "Hát/Váll",
+   "volume": 7669,
+   "cardio": [
+    {
+     "name": "Run on Treadmill",
+     "duration": 600,
+     "distance": 1
+    }
+   ],
+   "exercises": [
+    {
+     "slug": "lever-seated-shoulder-press",
+     "name": "Lever Seated Shoulder Press",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10
+      },
+      {
+       "w": 30,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "straight-back-seated-row",
+     "name": "Straight Back Seated Row",
+     "sets": [
+      {
+       "w": 60,
+       "r": 11,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 56,
+       "r": 12,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "lever-lateral-raise",
+     "name": "Lever Lateral Raise",
+     "sets": [
+      {
+       "w": 40,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        }
+       ]
+      },
+      {
+       "w": 35,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-row",
+     "name": "Lever Seated Row",
+     "sets": [
+      {
+       "w": 50,
+       "r": 10,
+       "pr": [
+        {
+         "type": 1,
+         "level": 1
+        },
+        {
+         "type": 3,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 45,
+       "r": 10
+      }
+     ]
+    },
+    {
+     "slug": "lever-seated-reverse-fly",
+     "name": "Lever Seated Reverse Fly",
+     "sets": [
+      {
+       "w": 27,
+       "r": 6
+      },
+      {
+       "w": 18,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "sets": [
+      {
+       "w": 48,
+       "r": 9,
+       "pr": [
+        {
+         "type": 1,
+         "level": 2
+        },
+        {
+         "type": 2,
+         "level": 2
+        }
+       ]
+      },
+      {
+       "w": 40,
+       "r": 11
+      }
+     ]
+    },
+    {
+     "slug": "pulldown",
+     "name": "Pulldown",
+     "sets": [
+      {
+       "w": 60,
+       "r": 8
+      },
+      {
+       "w": 50,
+       "r": 12
+      }
+     ]
+    },
+    {
+     "slug": "lever-total-abdominal-crunch",
+     "name": "Lever Total Abdominal Crunch",
+     "sets": [
+      {
+       "w": 75,
+       "r": 8,
+       "pr": [
+        {
+         "type": 1,
+         "level": 3
+        },
+        {
+         "type": 2,
+         "level": 1
+        }
+       ]
+      },
+      {
+       "w": 60,
+       "r": 16,
+       "pr": [
+        {
+         "type": 3,
+         "level": 3
+        },
+        {
+         "type": 4,
+         "level": 3
+        }
+       ]
       }
      ]
     }
